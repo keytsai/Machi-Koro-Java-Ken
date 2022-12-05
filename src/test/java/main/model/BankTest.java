@@ -30,4 +30,10 @@ class BankTest {
         bank.gainCoin(2);
         assertEquals(102, bank.getTotalCoin());
     }
+
+    @Test
+    void gainCoin3() {
+        bank.gainCoin(2);
+        assertEquals(12, bank.getTotalCoin());
+    }
 }
