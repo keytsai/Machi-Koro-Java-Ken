@@ -24,16 +24,5 @@ class BankTest {
         bank.gainCoin(1);
         assertEquals(101, bank.getTotalCoin());
     }
-
-    @Test
-    void gainCoin2() {
-        bank.gainCoin(2);
-        assertEquals(102, bank.getTotalCoin());
-    }
-
-    @Test
-    void gainCoin3() {
-        bank.gainCoin(2);
-        assertEquals(100, bank.getTotalCoin());
-    }
+    
 }
